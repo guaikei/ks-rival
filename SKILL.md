@@ -6,6 +6,11 @@ name: ks-rival
 description: "快手竞品监控数据源（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.2
+display_name: "快手竞品监控｜对标账号·作品数据·粉丝画像·评论口碑"
+display_name_en: "Kuaishou Competitor Monitor"
+description_zh: "快手竞品监控数据源（只读）：对标账号作品与粉丝数据、关键词搜视频、视频评论舆情；支持排序、时间和时长筛选，全部以结构化 JSON 输出供 AI 直接对比分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 30/50/60，超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于对标账号跟踪、粉丝画像、KOL 真实互动率筛选、评论口碑监控、爆款选题与差异化策略制定。"
+description_en: "Read-only Kuaishou competitor-monitoring data source: benchmark-account video lists and follower insights, keyword video search, and comment sentiment mining. Supports sorting plus time-window and duration filters; all results are structured JSON ready for direct comparative analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/creator-videos/comments at 30/50/60, returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for benchmark-account tracking, follower profiling, KOL engagement-rate vetting, comment reputation monitoring, breakout topic selection, and differentiation strategy."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
